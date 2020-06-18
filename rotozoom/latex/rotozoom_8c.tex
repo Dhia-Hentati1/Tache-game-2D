@@ -1,0 +1,69 @@
+\hypertarget{rotozoom_8c}{}\doxysection{rotozoom.\+c File Reference}
+\label{rotozoom_8c}\index{rotozoom.c@{rotozoom.c}}
+{\ttfamily \#include \char`\"{}objet.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}S\+D\+L/\+S\+D\+L.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}S\+D\+L/\+S\+D\+L\+\_\+image.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$S\+D\+L/\+S\+D\+L\+\_\+rotozoom.\+h$>$}\newline
+Include dependency graph for rotozoom.\+c\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{rotozoom_8c__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{rotozoom_8c_a3925d4cab2b2dd80c3f9532d44dfacd7}{O\+B\+J\+E\+T\+\_\+\+Init}} (\mbox{\hyperlink{structobj}{obj}} $\ast$o, int x, int y)
+\begin{DoxyCompactList}\small\item\em To initialize the objet o . \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{rotozoom_8c_ac1d9c1135e42d7d02a5b3bb565541ff0}{rotation\+\_\+objet}} (\mbox{\hyperlink{structobj}{obj}} o, S\+D\+L\+\_\+\+Surface $\ast$ecran, S\+D\+L\+\_\+\+Surface $\ast$backg, S\+D\+L\+\_\+\+Rect position)
+\begin{DoxyCompactList}\small\item\em To rotate the image o-\/$>$image\+\_\+entite . \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{rotozoom_8c_a3925d4cab2b2dd80c3f9532d44dfacd7}\label{rotozoom_8c_a3925d4cab2b2dd80c3f9532d44dfacd7}} 
+\index{rotozoom.c@{rotozoom.c}!OBJET\_Init@{OBJET\_Init}}
+\index{OBJET\_Init@{OBJET\_Init}!rotozoom.c@{rotozoom.c}}
+\doxysubsubsection{\texorpdfstring{OBJET\_Init()}{OBJET\_Init()}}
+{\footnotesize\ttfamily void O\+B\+J\+E\+T\+\_\+\+Init (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structobj}{obj}} $\ast$}]{o,  }\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+
+
+To initialize the objet o . 
+
+
+\begin{DoxyParams}{Parameters}
+{\em o} & the objet \\
+\hline
+{\em x} & the position x of image \\
+\hline
+{\em y} & the position y of image \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Nothing 
+\end{DoxyReturn}
+\mbox{\Hypertarget{rotozoom_8c_ac1d9c1135e42d7d02a5b3bb565541ff0}\label{rotozoom_8c_ac1d9c1135e42d7d02a5b3bb565541ff0}} 
+\index{rotozoom.c@{rotozoom.c}!rotation\_objet@{rotation\_objet}}
+\index{rotation\_objet@{rotation\_objet}!rotozoom.c@{rotozoom.c}}
+\doxysubsubsection{\texorpdfstring{rotation\_objet()}{rotation\_objet()}}
+{\footnotesize\ttfamily void rotation\+\_\+objet (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structobj}{obj}}}]{o,  }\item[{S\+D\+L\+\_\+\+Surface $\ast$}]{ecran,  }\item[{S\+D\+L\+\_\+\+Surface $\ast$}]{backg,  }\item[{S\+D\+L\+\_\+\+Rect}]{position }\end{DoxyParamCaption})}
+
+
+
+To rotate the image o-\/$>$image\+\_\+entite . 
+
+
+\begin{DoxyParams}{Parameters}
+{\em o} & the objet \\
+\hline
+{\em ecran} & the ecran \\
+\hline
+{\em backg} & the background \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Nothing 
+\end{DoxyReturn}
